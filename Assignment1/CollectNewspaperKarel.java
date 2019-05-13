@@ -26,8 +26,8 @@ public class CollectNewspaperKarel extends SuperKarel {
 
 	/*
 	 * Walks Karel on the corner with a newspaper.
-	 * Pre:  Karel is on the 3th ave 4rd row corner, facing east.
-	 * Post: Karel is on the 6th ave 3rd row corner, facing west.
+	 * Pre:  Karel is on the 3th ave 4th street corner, facing east.
+	 * Post: Karel is on the 6th ave 3rd street corner, facing west.
 	 */
 	private void walkToNewspaper() {
 		move();
@@ -40,7 +40,7 @@ public class CollectNewspaperKarel extends SuperKarel {
 
 	/*
 	 * 	Walks Karel to its initial position.
-	 * 	Pre:  Karel is on the 6th ave 3rd row corner.
+	 * 	Pre:  Karel is on the 6th ave 3rd street corner.
 	 * 	Post: Karel is in the upper left corner of the house, facing east.
 	 */
 	private void getToInitialPosition() {
