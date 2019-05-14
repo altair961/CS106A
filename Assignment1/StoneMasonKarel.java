@@ -64,7 +64,7 @@ public class StoneMasonKarel extends SuperKarel {
 	 * Pre:  Karel is on the first row of a column at 1st, 5th, 9th, 13th etc ave facing east.
 	 * Post: Karel is on the first row of a column at 1st, 5th, 9th, 13th etc ave facing east.
 	 */
-	public void moveToNextColumn() {
+	private void moveToNextColumn() {
 		for (int i = 0; i <= 3; i++) {
 			if(frontIsClear()) {
 				move();
